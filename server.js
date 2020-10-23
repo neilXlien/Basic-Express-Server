@@ -1,0 +1,11 @@
+const express = require('express');
+
+// init express
+const app = express();
+
+const PORT = 5000;
+
+app.listen(
+  PORT, console.log(`Server running on Port: ${PORT}`)
+);
+
